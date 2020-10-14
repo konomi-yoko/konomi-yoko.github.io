@@ -1,0 +1,179 @@
+body {
+	margin: 0;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+	font-size: 25px;
+	color: #424242;
+	list-style-type: none;
+}
+
+h1 {
+	font-size: 50px;
+	line-height: 0px;
+	color: #2E2E2E;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font-size: 16px;
+	color: #848484;
+	margin: 0;
+	padding: 0;
+}
+
+hr {
+	width: 1350px;
+	height: 7px;
+	border-style: solid;
+	background: #c0ff4e;
+	border: none;
+	padding: 0;
+}
+
+header {
+	background: #c0ff4e;
+	background-image: url("solid.png");
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.prof {
+	margin: 0 auto 90px;
+}
+
+.prof h1 {
+	text-align: center;
+	margin: 90px auto 70px;
+}
+
+.prof img {
+	border-radius: 50%;
+	margin-bottom: 50px;
+}
+
+.info {
+	border-radius: 20px;
+	background-color: #fff;
+	width: 240px; 
+	display: flex;
+	margin: 0 auto;
+	padding: 25px 40px 15px;
+
+}
+
+.que {
+	text-align: center;
+}
+
+.que li {
+	background: #c0ff4e;
+	border-radius: 10px;
+	width: 70px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+}
+
+
+.ans li {
+	color: #424242;
+	margin-bottom: 10px;
+	list-style-type: none;
+}
+
+
+/*好きなもの*/
+
+.container {
+	margin: 120px 0 160px;
+}
+
+.text {
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.text h1 {
+	margin-bottom: 45px;
+}
+
+.pic {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pic li {
+	border: 1px solid lightgray;
+	border-radius: 20px;
+	overflow: hidden;
+	width: 450px;
+	height: 450px;
+	margin: 0 6px;
+}
+
+.img01 { background: url(love01.jpg); }
+.img01:hover { background: url(love01_over.jpg); }
+
+.img02 { background: url(love02.jpg); }
+.img02:hover { background: url(love02_over.jpg); }
+
+.img03 { background: url(love03.jpg); }
+.img03:hover { background: url(love03_over.jpg); }
+
+.img04 { background: url(love04.jpg); }
+.img04:hover { background: url(love04_over.jpg); }
+
+.img05 { background: url(love05.jpg); }
+.img05:hover { background: url(love05_over.jpg); }
+
+.img06 { background: url(love06.jpg); }
+.img06:hover { background: url(love06_over.jpg); }
+
+.img07 { background: url(love07.jpg); }
+.img07:hover { background: url(love07_over.jpg); }
+
+.img08 { background: url(love08.jpg); }
+.img08:hover { background: url(love08_over.jpg); }
+
+.img09 { background: url(love09.jpg); }
+.img09:hover { background: url(love09_over.jpg); }
+
+.img10 { background: url(love10.jpg); }
+.img10:hover { background: url(love10_over.jpg); }
+
+.img11 { background: url(love11.jpg); }
+.img11:hover { background: url(love11_over.jpg); }
+
+.img12 { background: url(love12.jpg); }
+.img12:hover { background: url(love12_over.jpg); }
+
+.img13 { background: url(love13.jpg); }
+.img13:hover { background: url(love13_over.jpg); }
+
+.img14 { background: url(love14.jpg); }
+.img14:hover { background: url(love14_over.jpg); }
+
+.img15 { background: url(love15.jpg); }
+.img15:hover { background: url(love15_over.jpg); }
+
+
+footer {
+	background-color: #c0ff4e;
+	background-image: url(ori.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	height: 110px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 0 0;
+}
