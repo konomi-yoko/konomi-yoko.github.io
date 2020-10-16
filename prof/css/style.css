@@ -1,27 +1,3 @@
-li {
-	font-size: 25px;
-	color: #424242;
-}
-
-h1 {
-	font-size: 50px;
-	line-height: 0px;
-	color: #2E2E2E;
-}
-
-p {
-	font-size: 16px;
-	color: #848484;
-}
-
-hr {
-	width: 1350px;
-	height: 7px;
-	border-style: solid;
-	background: #c0ff4e;
-	border: none;
-	margin: 0 auto;
-}
 
 
 /*-------------header-------------*/
@@ -34,6 +10,16 @@ header {
 	align-items: center;
 }
 
+h1 {
+	font-size: 50px;
+	line-height: 0px;
+	color: #2E2E2E;
+}
+
+header li {
+	font-size: 25px;
+	color: #424242;
+}
 
 .prof {
 	margin: 0 auto 90px;
@@ -79,12 +65,72 @@ header {
 /*headerここまで*/
 
 /*-------------nav-------------*/
+nav {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 150px;
+	background: #c0ff4e;
+}
+
+.menu {
+	display: flex;
+	width: 1400px;
+	height: 150px;
+}
+
+.menu img {
+	width: 200px;
+	height: 200px;
+	border: 10px solid #c0ff4e;
+	border-radius: 50%;
+}
+
+.menu div {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.menu-left {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	width: 500px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #2E2E2E;
+	padding: 0 0 20px 40px;
+}
+
+.menu-right {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	width: 250px;
+	padding: 0 40px 20px 0;
+}
+
+
+.fa-circle {
+	color: #fff;
+}
+
+.fa-twitter, .fa-instagram, .fa-facebook {
+	color: #2E2E2E;
+}
+
 
 /*navここまで*/
 
 /*-------------main-------------*/
 
-.container {
+section p {
+	font-size: 16px;
+	color: #848484;
+}
+
+section {
 	margin: 120px 0 160px;
 }
 
@@ -110,6 +156,15 @@ header {
 	width: 450px;
 	height: 450px;
 	margin: 0 6px;
+}
+
+hr {
+	width: 1350px;
+	height: 7px;
+	border-style: solid;
+	background: #c0ff4e;
+	border: none;
+	margin: 0 auto;
 }
 
 .img01 { background: url(../img/love01.jpg); }
