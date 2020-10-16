@@ -24,7 +24,7 @@ hr {
 }
 
 
-/*header*/
+/*-------------header-------------*/
 
 header {
 	background: #c0ff4e;
@@ -78,7 +78,11 @@ header {
 
 /*headerここまで*/
 
-/*main*/
+/*-------------nav-------------*/
+
+/*navここまで*/
+
+/*-------------main-------------*/
 
 .container {
 	margin: 120px 0 160px;
@@ -156,7 +160,7 @@ header {
 /*mainここまで*/
 
 
-/*footer*/
+/*-------------footer-------------*/
 footer {
 	background-color: #c0ff4e;
 	background-image: url(../img/ori.png);
