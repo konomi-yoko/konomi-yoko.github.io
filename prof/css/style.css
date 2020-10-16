@@ -2,6 +2,10 @@
 
 /*-------------header-------------*/
 
+body {
+	width: 100%;
+}
+
 header {
 	background: #c0ff4e;
 	background-image: url("../img/solid.png");
