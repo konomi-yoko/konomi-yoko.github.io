@@ -8,11 +8,12 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	position: relative;
+	z-index: 2;
 }
 
 h1 {
 	font-size: 50px;
-	line-height: 0px;
 	color: #2E2E2E;
 }
 
@@ -71,6 +72,10 @@ nav {
 	width: 100%;
 	height: 150px;
 	background: #c0ff4e;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
 }
 
 .menu {
@@ -108,7 +113,7 @@ nav {
 	justify-content: space-between;
 	align-items: flex-end;
 	width: 250px;
-	padding: 0 40px 20px 0;
+	padding-bottom: 15px;
 }
 
 
@@ -125,15 +130,20 @@ nav {
 
 /*-------------main-------------*/
 
+main {
+	margin: 0 auto;
+	padding: 150px 0;
+}
+
+section {
+	margin: 120px auto 160px;
+	width: 1374px;
+}
+
 section p {
 	font-size: 16px;
 	color: #848484;
 }
-
-section {
-	margin: 120px 0 160px;
-}
-
 .text {
 	text-align: center;
 	margin-bottom: 60px;
@@ -155,7 +165,11 @@ section {
 	overflow: hidden;
 	width: 450px;
 	height: 450px;
-	margin: 0 6px;
+	margin-right: 12px;
+}
+
+.pic li:last-child{
+	margin-right: 0;
 }
 
 hr {
