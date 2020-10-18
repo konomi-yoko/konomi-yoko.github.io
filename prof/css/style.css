@@ -136,7 +136,7 @@ nav {
 
 main {
 	margin: 0 auto;
-	padding: 150px 0;
+	padding: 150px 0 0;
 }
 
 section {
@@ -232,6 +232,9 @@ hr {
 
 /*mainここまで*/
 
+/*-------------contact-------------*/
+
+/*contactここまで*/
 
 /*-------------footer-------------*/
 footer {
