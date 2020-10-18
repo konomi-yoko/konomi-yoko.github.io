@@ -698,43 +698,17 @@ hr {
 /*-------------contact-------------*/
 aside {
 	height: 430px;
-	padding: 60px 0 0;
-}
-
-h1 {
-	margin-bottom: 35px;
 }
 
 aside p {
-	font-size: 16px;
-	color: #666;
-	margin-bottom: 30px;
+	font-size: 13px;
 }
 
-form {
-	width: 80%;
-	margin: 40px auto 0;
+form , input , textarea {
+	width: 90%;
 }
 
-input {
-	width: 80%;
-	height: 40px;
-	box-sizing: border-box;
-	margin-bottom: 15px;
-}
-
-textarea {
-	width: 80%;
-	height: 130px;
-	box-sizing: border-box;
-}
-
-button {
-	color: #2e2e2e;
-	border: none;
-	background: #e6e6e6;
-	margin-top: 25px;
-}
+/*-------------footer-------------*/
 
 footer {
 	height: 300px;
@@ -748,10 +722,6 @@ footer {
 	margin-bottom: 60px;
 	width: 300px;
 }
-
-
-
-
 
 
 
