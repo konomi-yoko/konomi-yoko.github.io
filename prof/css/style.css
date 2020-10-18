@@ -123,6 +123,12 @@ nav {
 	color: #2E2E2E;
 }
 
+.menu-bar {
+	width: 70px;
+	height: 70px;
+	display: none;
+}
+
 
 /*navここまで*/
 
@@ -477,11 +483,8 @@ nav {
 }
 
 .menu-right {
-	width: 0;
 	display: none;
 }
-
-/*navここまで*/
 
 
 /*-------------main-------------*/
@@ -582,6 +585,163 @@ footer {
 .menu-footer {
 	margin-bottom: 20px;
 }
+
+}
+
+
+/*スマホ用*/
+@media screen and (max-width: 480px) {
+	body {
+		min-width: 375px;
+	}
+
+/*-------------hrader-------------*/
+header {
+	height: auto;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+header li {
+	font-size: 18px;
+}
+
+.prof {
+	margin-bottom: 65px;
+}
+
+.prof h1 {
+	margin: 60px auto 50px;
+}
+
+.prof img {
+	width: 340px;
+	height: 340px;
+}
+
+
+
+/*-------------nav-------------*/
+nav {
+	height: 60px;
+}
+
+.menu img {
+	width: 70px;
+	height: 70px;
+	border: 5px solid #c0ff4e;
+}
+
+.menu-left {
+	display: none;
+}
+
+.menu-bar {
+	display: block;
+}
+
+.fa-bars {
+	color: #2e2e2e;
+	margin: 15px 15px 0 0;
+}
+
+/*-------------main-------------*/
+
+main {
+	padding-top: 40px;
+}
+
+section {
+	margin: 60px auto 20px;
+	width: 360px;
+}
+
+section p {
+	font-size: 11px;
+}
+
+.text {
+	margin-bottom: 45px;
+}
+
+.text h1 {
+	margin-bottom: 30px;
+}
+
+.pic {
+	display: flex;
+	flex-direction: column;
+	width: 360px;
+}
+
+.pic li {
+	width: 320px;
+	height: 320px;
+	margin-bottom: 28px;
+	margin-right: 0;
+}
+
+hr {
+	width: 370px;
+}
+
+/*-------------contact-------------*/
+aside {
+	height: 430px;
+	padding: 60px 0 0;
+}
+
+h1 {
+	margin-bottom: 35px;
+}
+
+aside p {
+	font-size: 16px;
+	color: #666;
+	margin-bottom: 30px;
+}
+
+form {
+	width: 80%;
+	margin: 40px auto 0;
+}
+
+input {
+	width: 80%;
+	height: 40px;
+	box-sizing: border-box;
+	margin-bottom: 15px;
+}
+
+textarea {
+	width: 80%;
+	height: 130px;
+	box-sizing: border-box;
+}
+
+button {
+	color: #2e2e2e;
+	border: none;
+	background: #e6e6e6;
+	margin-top: 25px;
+}
+
+footer {
+	height: 300px;
+}
+
+.icon {
+	margin: 50px 0 70px;
+}
+
+.menu-footer {
+	margin-bottom: 10px;
+}
+
+
+
 
 
 
