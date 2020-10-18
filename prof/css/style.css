@@ -733,12 +733,14 @@ footer {
 }
 
 .icon {
-	margin: 50px 0 70px;
+	margin: 50px 0 40px;
 }
 
 .menu-footer {
-	margin-bottom: 10px;
+	margin-bottom: 60px;
+	width: 300px;
 }
+
 
 
 
