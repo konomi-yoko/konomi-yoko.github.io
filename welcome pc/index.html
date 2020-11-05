@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script defer src="./js/app.js"></script>
 </head>
 <body>
 	<!-- header -->
@@ -20,8 +22,25 @@
 				<li>新規登録</li>
 				<li>ログイン</li>
 		</ul>
+						<p id="hamburger-btn" class="js-hamburger hamburger">
+			<span></span>
+		</p>
+
 	</header>
 	<!-- headerここまで -->
+
+<!-- navここから -->
+	<nav class="menu-target menu-nav hide">
+		<ul>
+			<li>新規登録</li>
+			<li>ログイン</li>
+		</ul>
+	</nav>
+
+
+<!-- navここまで -->
+
+
 <!-- welcome -->
 	<main class="welcome" id="margin-for-fixd">
 		<h1 class="title">Welcome to NexSeed Okinawa</h1>
@@ -35,8 +54,9 @@
 			<button class="btn login">ログイン</button>
 		</div>
 	</main>
+	<!-- welcomeここまで -->
 
-	<!-- welcome -->
+	<!-- curriculum -->
 	<main class="curriculum">
 		<h2 class="subtitle">NexSeed Life</h2>
 		<ul class="img-box">
@@ -73,12 +93,15 @@
 					</fieldset>
 				</div>
 			<!-- 右側 -->
-				<div>
+				<div class="form-right">
 					<fieldset>
 						<textarea class="inquiry" placeholder="お問い合わせ内容"></textarea>
 					</fieldset>
 				</div>
 			</div>
+			<fieldset>
+				<button>submit</button>
+			</fieldset>
 		</form>
 	</aside>
 	<!-- contact usここまで -->
@@ -96,6 +119,7 @@
 
 	<!-- footerここまで -->
 
+<!-- 美味しいレストラン -->
 
 </body>
 </html>
