@@ -10,7 +10,7 @@ header {
 	justify-content: center;
 	align-items: center;
 	position: relative;
-	z-index: 2;
+	z-index: 3;
 }
 
 h1 {
@@ -74,7 +74,7 @@ nav {
 	height: 150px;
 	background: #c0ff4e;
 	position: fixed;
-	z-index: 1;
+	z-index: 2;
 	top: 0;
 	left: 0;
 }
@@ -133,6 +133,88 @@ nav {
 	display: none;
 }
 
+/* ハンバーガーメニュー */
+.hamburger {
+  display: none;
+  width: 28px;
+  align-self: center;
+  margin-right: 20px;
+}
+
+.hamburger span:after,
+.hamburger span:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -9px;
+}
+
+.hamburger span:after{
+  top: 9px;
+}
+
+.hamburger span {
+  position: relative;
+  display: block;
+}
+
+.hamburger span,
+.hamburger span:after,
+.hamburger span:before {
+	width: 100%;
+	height: 5px;
+	background-color: #424242;
+	transition: all 0.5s;
+	backface-visibility: hidden;
+	border-radius: 2px;
+}
+
+/*.hamburger.on span {
+	background-color: transparent;
+}
+
+.hamburger.on span:before {
+	transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.on span:after {
+	transform: rotate(-45deg) translate(7px, -8px);
+}*/
+
+.hamburger.on span:before,
+.hamburger.on span:after {
+  width: 15px;
+}
+.hamburger.on span:before {
+  -webkit-transform: translate(-3px,5px) rotate(-45deg);
+  transform: translate(-3px,5px) rotate(-45deg);
+}
+.hamburger.on span:after {
+  -webkit-transform: translate(-3px,-5px) rotate(45deg);
+  transform: translate(-3px,-5px) rotate(45deg);
+}
+
+
+
+
+/* ハンバーガーメニューここまで */
+
+/* ドロワー */
+
+.drower {
+  position: absolute;
+  top: 60px;
+  height: 100vh;
+  width: 150px;
+  color: #fff;
+  background-color: rgba(8, 8, 8, .7);
+  right: -150px;
+}
+
+.drower.on {
+  right: 0;
+  transition-duration: 600ms;
+}
 
 /*navここまで*/
 
@@ -634,6 +716,12 @@ header li {
 /*-------------nav-------------*/
 nav {
 	height: 60px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu {
+	width: 100px;
 }
 
 .menu img {
@@ -650,10 +738,11 @@ nav {
 	display: block;
 }
 
-.fa-bars {
-	color: #2e2e2e;
-	margin: 15px 15px 0 0;
+ /* ハンバーガーメニュー */
+	.hamburger {
+	display: block;
 }
+
 
 /*-------------main-------------*/
 
